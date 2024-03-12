@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+   <style>
+    body{
+    background-color: chartreuse;
+    font: normal 30pt arial
+
+    }
+    p{
+        color:  orange;
+    }
+    h1{
+        color: yellow;
+    }
+
+   </style>
+</head>
+<body>
+    <h1>
+        Oi, o que achou da calculadora?
+    </h1>
+    <p>
+        Eu ainda estou melhorando minhas habilidades, então pode ter ficado meio ruim.
+    </p>
+    <p>
+        Essas cores são bonitas, né?
+    </p>
+    
+  
+    
+    <script>
+      var n1s = Number(window.prompt("escolha um número para subtrair"))
+      var n2s = Number(window.prompt("escolha outro número"))
+      var ss = n1s - n2s
+      window.alert(`o resultado da subtração ${n1s} menos ${n2s}, é igual a ${ss}`)
+      window.alert("mas ok, agora vamos somar números")
+      var n1a = Number(window.prompt("escolha um número para somar"))
+      var n2a = Number(window.prompt("escolha outro número"))
+      var aa = n1a + n2a
+      window.alert(`o resultado da adição ${n1a} mais ${n2a}, é igual a ${aa}`)
+      window.alert("como estou entediado, vou contar as letras do seu nome")
+      var nome = window.prompt('Qual seu nome?')
+      window.alert(`seu nome é ${nome} e tem ${nome.length} letras`)
+    document.write(`ah é quase ia me esquecendo ${nome}, seu nome tem ${nome.length} letras`) //fazer banco de dados depos//
+    </script>
+</body>
+</html>
